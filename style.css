@@ -63,16 +63,6 @@ nav a{
 
 
 
-
-
-
-
-
-
-
-
-
-
 .calendar {
     max-width: 740px;
     height: 720px;
@@ -144,7 +134,26 @@ nav a{
 .days div:hover:not(.empty) {
     border: 4px solid #ffffff;
     cursor: pointer;
+}
 
+
+
+
+
+@media(max-width: 650px){ 
+    .days div{
+        font-size: 60%;
+        height: 36px;
+    }
+    
+}
+
+@media(max-width: 450px){ 
+    .days div{
+        font-size: 50%;
+        height: 26px;
+    }
+    
 }
 
 .today {
